@@ -1,0 +1,81 @@
+
+
+
+
+ body{
+
+    background-color: rgb(249, 246, 250);
+ }
+ li:hover{
+   background-color: green;
+
+   
+    }
+    li{
+
+padding-right: 30px;
+
+    }
+    .p1{
+
+height: 20vh;
+
+    }
+    .m2{
+background-color: cadetblue;
+
+    }
+    .m1{
+
+      background-color: crimson;
+     
+    }
+    .con1{background-image: url("https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-3293148.jpg&fm=jpg");
+    background-size: cover; 
+    background-position:center ;
+    
+}
+    .contain1{
+    
+        
+display: flex;
+flex-direction: row;
+
+align-items: center;
+
+justify-content: space-evenly;
+
+    }
+   
+    p{
+margin-top: 16px;
+padding-left: 10px;
+padding-bottom: 20px;
+padding-right: 10px;
+        font-size: 4vh;
+        color: whitesmoke;
+        background-color: rgba(39, 41, 39, 0.76);
+        border-radius: 0.2em;
+    }
+
+   
+ @media only screen and (max-width: 700px) {
+
+    
+    li{
+       padding-right: 8px;
+       padding-top: 15px;
+    }
+    .contain1{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content: space-between;
+            }
+
+     p{
+         font-size: 30px;
+     }       
+}
+
